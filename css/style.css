@@ -273,3 +273,24 @@ body::-webkit-scrollbar {
 }
 
 
+@media only screen and (max-height: 836px){
+	body{
+		transform: scale(0.8);
+	}
+}
+
+@media only screen and (max-width: 1250px){
+	.heading{
+		display: none;
+	}
+}
+
+/*@media only screen and (max-width: 730px){
+	body{
+		transform: scale(0.6);
+	}
+}*/
+
+@media only screen and (max-height: 700px){
+	body{transform: scale(0.6);}	
+}
